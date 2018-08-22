@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "test": "jest --testResultsProcessor='./node_modules/jest-junit-reporter'",
+    "test": "jest --testResultsProcessor='./node_modules/jest-junit-reporter' && codecov",
     "lint": "eslint ./"
   },
   "dependencies": {
