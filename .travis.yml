@@ -4,7 +4,7 @@ node_js:
   - "10"
   
 before_install:
-  - npm i -g yarn apollo
+  - npm i -g yarn
 
 install:
   - yarn
@@ -12,5 +12,3 @@ install:
 script:
   - yarn lint
   - yarn test
-  - yarn start &
-  - apollo schema:check
