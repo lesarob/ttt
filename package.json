@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "echo test",
-    "lint": "echo lint"
+    "lint": "echo lint",
+    "start": "echo start"
   },
   "dependencies": {
     "react": "^16.0.0"
