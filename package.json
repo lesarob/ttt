@@ -3,13 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
+    "test": "jest && codecov",
     "lint": "eslint ./"
   },
   "dependencies": {
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "codecov": "3.0.4",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.0.0",
     "eslint-plugin-import": "^2.7.0",
