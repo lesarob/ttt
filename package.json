@@ -1,6 +1,10 @@
 {
-  name: "ttt",
+  "name": "ttt",
   "private": true,
+  "scripts": {
+    "test": "echo test",
+    "lint": "echo lint"
+  },
   "dependencies": {
     "react": "^16.0.0"
   },
