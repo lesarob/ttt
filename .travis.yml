@@ -12,3 +12,4 @@ install:
 script:
   - yarn lint
   - yarn test
+  - apollo schema:check --key="$APOLLO_TOKEN" --endpoint="http://localhost:4000/graphql"
