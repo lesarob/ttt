@@ -1,3 +1,4 @@
+/* eslint-disable */
 const index = require('./index');
 
 describe('Test 2', () => {
